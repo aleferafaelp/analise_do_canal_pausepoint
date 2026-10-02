@@ -28,7 +28,6 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-import pyautogui
 
 tabela_videos = pd.read_csv(
     "tabela_videos_corrigida.csv",
